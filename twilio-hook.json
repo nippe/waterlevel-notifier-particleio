@@ -1,0 +1,15 @@
+{
+    "eventName": "twilio",
+    "url": "https://api.twilio.com/2010-04-01/Accounts/<twilio key>/Messages",
+    "requestType": "POST",
+    "auth": {
+        "username": "<twilio key>",
+        "password": "<secret>"
+    },
+    "form": {
+        "From" : "<twilio from number>",
+        "To" : "<number to send to>",
+        "Body" : "{{SPARK_EVENT_VALUE}}"
+    },
+    "mydevices": true
+}

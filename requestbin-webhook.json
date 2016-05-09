@@ -1,0 +1,8 @@
+    "url": "http://requestb.in/KEY",
+    "requestType": "POST",
+    "json": {
+        "t": "{{t}}",
+        "h": "{{h}}"
+    },
+    "mydevices": true
+}
